@@ -88,7 +88,7 @@
         <pattern>NO RESPONSES</pattern>
         <template>
             Hm! Interesting!<split/>
-            You might want to consider speaking to one of our advisers to get further help.
+            You might want to consider speaking to one of our student advisers to get further help.<split/>
             <srai>APPOINTMENT</srai>
             
         </template>

@@ -24,6 +24,12 @@
 	        <text>11:00 AM MDT</text>
 	        <postback>TIME SETUP 11 00 AM MDT</postback>
         </button>
+        <split/>
+        <button>
+            <text>Back to Start</text>
+            <postback>MENU</postback>
+        </button>
+        
 	    </template>
     </category>
     
@@ -35,7 +41,7 @@
                 <li>Perfect!</li>
                 <li>Excellent!</li>
             </random>
-            <split/> Our student advisor will contact you at <star/><split/>
+            <split/>Our student advisor will contact you at <star/><split/>
             
             <button>
                 <text>Back to Start</text>
