@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<category>
+	    <pattern>CAREER ADVISOR</pattern>
+	    <template>Great! 
+	        <split/>We will go through a sequence of questions to suggest career paths to consider.<split/>
+            <srai>CODE QUESTION</srai>
+	    </template>
+	    
+    </category>
+    
+    <category>
+        <pattern>CODE QUESTION</pattern>
+        <template>
+            Do you like coding and the development environment?
+            <reply>
+                <text>Yes</text>
+                <postback>GAME QUESTION</postback>
+            </reply>
+            <reply>
+                <text>No</text>
+                <postback>DATA QUESTION</postback>
+            </reply>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>GAME QUESTION</pattern>
+        <template>
+            Do you like games and would like to know how to develop one? 
+            <reply>
+                <text>Yes</text>
+                <postback>GAMEDEV CHOICE</postback>
+            </reply>
+            <reply>
+                <text>No</text>
+                <postback>WEB QUESTION</postback>
+            </reply>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>WEB QUESTION</pattern>
+        <template>
+            Do you want to mix coding with creating layuouts on the web?
+            <reply>
+                <text>Yes</text>
+                <postback>WEBDEV CHOICE</postback>
+            </reply>
+            <reply>
+                <text>No</text>
+                <postback>SOFTDEV CHOICE</postback>
+            </reply>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>DATA QUESTION</pattern>
+        <template>
+            Are you passionate about math and interested in Data analysis? 
+            <reply>
+                <text>Yes</text>
+                <postback>DATASCIENTIST CHOICE</postback>
+            </reply>
+            <reply>
+                <text>No</text>
+                <postback>DATABASE QUESTION</postback>
+            </reply>
+        </template>
+    </category>
+    
+      <category>
+        <pattern>DATABASE QUESTION</pattern>
+        <template>
+            Are you familiar with SQL and would like to work with databases?
+            <reply>
+                <text>Yes</text>
+                <postback>DATABASE CHOICE</postback>
+            </reply>
+            <reply>
+                <text>NO</text>
+                <postback>NO RESPONSES</postback>
+            </reply>
+        </template>
+    </category>
+    
+     <category>
+        <pattern>NO RESPONSES</pattern>
+        <template>
+            Hm! Interesting!<split/>
+            You might want to consider speaking to one of our advisers to get further help.
+            <srai>APPOINTMENT</srai>
+            
+        </template>
+    </category>
+
+</aiml>

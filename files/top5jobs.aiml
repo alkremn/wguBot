@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<category>
+	    <pattern>TOP 5 JOBS</pattern>
+	    <template>Top 5 jobs to consider
+	    <delay>1</delay>
+	    <button>
+	        <text>Software Developer</text>
+	        <postback>SOFTWARE DEVELOPER</postback>
+        </button>
+        <button>
+	        <text>Web Developer</text>
+	        <postback>WEB DEVELOPER</postback>
+        </button>
+        <button>
+	        <text>Game Designer</text>
+	        <postback>GAME DESIGNER</postback>
+        </button>
+       
+        <button>
+	        <text>Data Scientist</text>
+	        <postback>DATA SCIENTIST</postback>
+        </button>
+        
+         <button>
+	        <text>Database administrator</text>
+	        <postback>DATABASE ADMIN</postback>
+        </button>
+        
+        <split/>
+        <button>
+            <text>Return To Start</text>
+            <postback>MENU</postback>
+        </button>
+        
+	    </template>
+	    
+    </category>
+</aiml>

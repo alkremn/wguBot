@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<category>
+	    <pattern>APPOINTMENT</pattern>
+	    <template>Here is available time to schedule an appointment with our student advisor:
+	    
+	    <button>
+	        <text>9:00 AM MDT</text>
+	        <postback>TIME SETUP 9 00 AM MDT</postback>
+        </button>
+        <button>
+	        <text>9:30 AM MDT</text>
+	        <postback>TIME SETUP 9 30 AM MDT</postback>
+        </button>
+        <button>
+	        <text>10:00 AM MDT</text>
+	        <postback>TIME SETUP 10 00 AM MDT</postback>
+        </button>
+        <button>
+	        <text>10:30 AM MDT</text>
+	        <postback>TIME SETUP 10 30 AM MDT</postback>
+        </button>
+        <button>
+	        <text>11:00 AM MDT</text>
+	        <postback>TIME SETUP 11 00 AM MDT</postback>
+        </button>
+	    </template>
+    </category>
+    
+    <category>
+        <pattern>TIME SETUP *</pattern>
+        <template>
+            <random>
+                <li>Great!</li>
+                <li>Perfect!</li>
+                <li>Excellent!</li>
+            </random>
+            <split/> Our student advisor will contact you at <star/><split/>
+            
+            <button>
+                <text>Back to Start</text>
+                <postback>MENU</postback>
+            </button>
+            
+            </template>
+    </category>
+</aiml>

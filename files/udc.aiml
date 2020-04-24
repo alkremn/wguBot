@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+    
+    <category>
+        <pattern>*</pattern>
+        <template>
+            <random>
+                <li>I didn't get that.</li>
+                <li>What do you mean?</li>
+                <li>I don't have answer for that.</li>
+            </random>
+            <br/>To begin type "hi".
+        </template>
+    </category>
+    
+    <category>
+        <pattern>HELLO</pattern>
+        <template>Hi! Welcome to Computer Science department!<br/>
+            <delay>1</delay>
+            <split/>I am student career assistant bot.<br/><split/>
+            <srai>MENU</srai>
+        </template>
+    </category>
+     
+    <category>
+        <pattern>MENU</pattern>
+        <template>
+            How can I help you today?
+            <button>
+                <text>Top 5 Jobs</text>
+                <postback>TOP 5 JOBS</postback>
+            </button>
+            <button>
+                <text>Help me select my career</text>
+                <postback>CAREER ADVISOR</postback>
+            </button>
+            <button>
+                <text>Make an appointment</text>
+                <postback>APPOINTMENT</postback>
+            </button>
+        </template>
+    </category>
+
+    
+    <category>
+      <pattern>HI</pattern>
+      <template><srai>HELLO</srai></template>
+    </category>
+</aiml>

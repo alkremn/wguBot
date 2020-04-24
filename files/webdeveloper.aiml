@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+		<category>
+	    <pattern>WEB DEVELOPER</pattern>
+	    <template>
+	        
+	        Here is a short description.<split/>
+	        Web developers assess the needs of users for information-based resources.<split/>
+	        They create the technical structure for websites and make sure that web pages are accessible and easily 
+	        downloadable through a variety of browsers and interfaces.
+	    <button>
+	        <text>Learn More</text>
+	        <url>https://www.thebalancecareers.com/web-developer-job-description-salary-and-skills-2061841</url>
+        </button>
+        <button>
+            <text>Return To Start</text>
+            <postback>MENU</postback>
+        </button>
+	    </template>
+    </category>
+    
+    
+    <category>
+        <pattern>WEBDEV CHOICE</pattern>
+        <template> 
+            Splendid!<split/>
+	        I think you should consider a web developer career.<split/>
+	        <srai>WEB DEVELOPER</srai>
+	        </template>
+    </category>
+    
+    
+    
+    
+</aiml>

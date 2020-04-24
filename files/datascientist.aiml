@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<category>
+	    <pattern>DATA SCIENTIST</pattern>
+	    <template>
+	        
+	        Here is a short description.<split/>
+	        The job responsibilities of data scientists are far ranging – from creating statistical methods to analyze data sets to developing automated 
+	        data collection processes – but their boils down to one essential function: making data useful for businesses.
+	    <button>
+	        <text>Learn More</text>
+	        <url>https://www.sas.com/en_us/insights/analytics/what-is-a-data-scientist.html</url>
+        </button>
+        <button>
+            <text>Back to Start</text>
+            <postback>MENU</postback>
+        </button>
+	    </template>
+    </category>
+    
+    
+    
+    <category>
+        <pattern>DATASCIENTIST CHOICE</pattern>
+        <template> 
+            Splendid!<split/>
+	        I think you should consider a Data scientist career path.<split/>
+	        <srai>DATA SCIENTIST</srai>
+	        </template>
+    </category>
+    
+    
+    
+</aiml>

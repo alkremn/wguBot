@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<category>
+	    <pattern>SOFTWARE DEVELOPER</pattern>
+	    <template>
+	        Here is a short description.<split/>
+	        Software developers create software programs that allow users to perform specific tasks on various devices, 
+	        such as computers or mobile devices.<split/> 
+	        They are responsible for the entire development, testing, and maintenance of software.
+	    <button>
+	        <text>Learn More</text>
+	        <url>https://www.thebalancecareers.com/software-developer-job-description-salary-and-skills-2061833</url>
+        </button>
+        <button>
+            <text>Back to Start</text>
+            <postback>MENU</postback>
+        </button>
+	    </template>
+    </category>
+    <category>
+        <pattern>SOFTDEV CHOICE</pattern>
+        <template> 
+            Great!<split/>
+	        I think you should consider a software developer career.<split/>
+	        <srai>SOFTWARE DEVELOPER</srai>
+	        </template>
+    </category>
+    
+    
+</aiml>

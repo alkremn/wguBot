@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+		<category>
+	    <pattern>GAME DESIGNER</pattern>
+	    <template>
+	       
+	        Here is a short description.<split/>
+	        Game designers work with teams to create video games. 
+	        Their responsibilities range from animating and designing characters to testing and 
+	        soliciting feedback on video games.
+	    <button>
+	        <text>Learn More</text>
+	        <url>https://study.com/articles/Game_Designer_Job_Info_and_Requirements_for_Becoming_a_Game_Designer.html</url>
+        </button>
+        <button>
+            <text>Back to Menu</text>
+            <postback>MENU</postback>
+        </button>
+	    </template>
+    </category>
+    
+    
+    <category>
+        <pattern>GAMEDEV CHOICE</pattern>
+        <template> 
+            Ok!<split/>
+	        I think you should consider a game designer career path.<split/>
+	        <srai>GAME DESIGNER</srai>
+	        </template>
+    </category>
+    
+    
+    
+</aiml>

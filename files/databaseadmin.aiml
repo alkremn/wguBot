@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<category>
+	    <pattern>DATABASE ADMIN</pattern>
+	    <template>
+	        Here is a short description.<split/>
+	        Database administrators analyze and evaluate the data needs of users.<split/> 
+	        They develop and improve the data resources used to store and retrieve critical information.
+	    <button>
+	        <text>Learn More</text>
+	        <url>https://www.thebalancecareers.com/database-administrator-job-description-salary-and-skills-2061775</url>
+        </button>
+        <button>
+            <text>Back to Start</text>
+            <postback>MENU</postback>
+        </button>
+	    </template>
+    </category>
+    
+    <category>
+        <pattern>DATABASE CHOICE</pattern>
+        <template> 
+            Perfect!<split/>
+	        I think you should consider a Database Administrator path.<split/>
+	        Here is a short discription.<split/>
+	        <srai>DATABASE ADMIN</srai>
+	        </template>
+    </category>
+    
+    
+</aiml>
